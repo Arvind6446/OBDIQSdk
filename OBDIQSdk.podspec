@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   # Spec Metadata
   spec.name         = 'OBDIQSdk'
-  spec.version      = '1.0.1'
+  spec.version      = '1.0.2'
   spec.homepage     = 'https://github.com/Arvind6446/OBDIQSdk'
 
   spec.summary      = 'Base interface for OBDIQ devices'
