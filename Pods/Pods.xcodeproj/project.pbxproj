@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -16,6 +16,7 @@
 			dependencies = (
 			);
 			name = RepairClubSDK;
+			productName = RepairClubSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -130,7 +131,7 @@
 		160875B3D5E323475134FAF64E09A320 /* RepairClubSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RepairClubSDK-Swift.h"; sourceTree = "<group>"; };
 		187A8CA07768521309700BDBD8C83D29 /* Pods-OBDIQSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OBDIQSdk-Info.plist"; sourceTree = "<group>"; };
 		1B3DD2ED366C87FEC053B7714A0765AE /* OBDIQSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OBDIQSdk.modulemap; sourceTree = "<group>"; };
-		20BF23373E825A79AFD23E55642743D3 /* OBDIQSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OBDIQSdk; path = OBDIQSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BF23373E825A79AFD23E55642743D3 /* OBDIQSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OBDIQSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		224353144B255915BA02E96D3F858F2D /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		22B57B8C81818A64DA0D94B5357040B7 /* RepairClubSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RepairClubSDK.release.xcconfig; sourceTree = "<group>"; };
 		2300FF256DCCA97E83AB8B1048E9A9DC /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
@@ -154,13 +155,13 @@
 		50E948E956FDCA10B945EA1E0D37E5AD /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
 		530DD0507244103F08B9985753004E9B /* OBDIQSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OBDIQSdk.debug.xcconfig; sourceTree = "<group>"; };
 		574581962A29DE4FA03BAD8D30FD58FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C356D5D13F08436A0C2962EF3ED8E92 /* RepairClubSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RepairClubSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C356D5D13F08436A0C2962EF3ED8E92 /* RepairClubSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RepairClubSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5CBF7204673D8EA70A3A0DEFF6852042 /* OBDIQSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OBDIQSdk-Info.plist"; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5F67A24F91CF1ED218D2C72FDF144D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		63DF629B8FB0B77203BD62011EA22CB3 /* Pods-OBDIQSdk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OBDIQSdk-acknowledgements.plist"; sourceTree = "<group>"; };
 		6675BE8BF2038932A11EBDA6E47AC8EC /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
-		672AE4566F551D51F683772D48FCF667 /* Pods-OBDIQSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OBDIQSdk"; path = Pods_OBDIQSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		672AE4566F551D51F683772D48FCF667 /* Pods_OBDIQSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OBDIQSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67701F5FBFCF360826D5663FA1EF30D2 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		67C484D4D16E45AF691410B3EDB95855 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
 		69766212A7E12AC4ED0940560F9F5B84 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
@@ -177,7 +178,7 @@
 		8E89F373C3EA4BBB8EE186C212A13955 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		9379C181C25CB361CE94B36874F97722 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		9822E23F945B558E69FBAB882823D326 /* CarDrConnectionApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CarDrConnectionApi.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A14F60ECD65AA98C79ABE099AAE43971 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		A33CAA6512F8BAEE01ECA3B762B866E3 /* OBDIQSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OBDIQSdk-dummy.m"; sourceTree = "<group>"; };
 		A5759AFC13C07872A26B1F886B0D4BAB /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
@@ -199,14 +200,14 @@
 		D719F5CD322AC6AD8432053F92F589CA /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		D7209F11D1C001703BEB395B649A4022 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		DC7D88117A1B5D0A25E065A5AF15324A /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
-		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E242510AEE9B4C56B48ECDFE5DC22A05 /* OBDIQSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OBDIQSdk-prefix.pch"; sourceTree = "<group>"; };
 		EA452F7E3D3204D2EC93877C1EE94D46 /* Pods-OBDIQSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OBDIQSdk-dummy.m"; sourceTree = "<group>"; };
 		EE6182C46132C0D8448EDA731970330E /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		EF9CC72DBDE118F3E3015DEDA63FB8F3 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
-		F497DE0D77330C8C3421D25033890A09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F6E251F7E525D60397DCADA2EE9EB9EE /* RepairClubSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = RepairClubSDK.xcframework; sourceTree = "<group>"; };
-		F94EF2F453299286589E077265C26798 /* OBDIQSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OBDIQSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F497DE0D77330C8C3421D25033890A09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F6E251F7E525D60397DCADA2EE9EB9EE /* RepairClubSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = RepairClubSDK.xcframework; sourceTree = "<group>"; };
+		F94EF2F453299286589E077265C26798 /* OBDIQSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OBDIQSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FBEC6A6ED663407FF04B35D06DDB0736 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -252,7 +253,6 @@
 			children = (
 				356E3F6EB4E23F89993DE950FD182EC7 /* Headers */,
 			);
-			name = RepairClubSDK.framework;
 			path = RepairClubSDK.framework;
 			sourceTree = "<group>";
 		};
@@ -277,7 +277,6 @@
 				D47DA7E563C90F223225D5931A360809 /* ios-arm64 */,
 				FA420FACF8D085115D52A180E3A9A719 /* ios-arm64_x86_64-simulator */,
 			);
-			name = RepairClubSDK.xcframework;
 			path = RepairClubSDK.xcframework;
 			sourceTree = "<group>";
 		};
@@ -322,7 +321,6 @@
 				3B2206037C64F17D64379349750A542D /* Validation.swift */,
 				909B9F13467B3583C65CB41FB083EC61 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -339,17 +337,16 @@
 			children = (
 				BD5EA5A5276DE4FC4BBA9AD3E12B4CA6 /* submodule */,
 			);
-			name = to;
 			path = to;
 			sourceTree = "<group>";
 		};
 		31B7C30BB03E5FDB0BE8A8C161EAFF11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				20BF23373E825A79AFD23E55642743D3 /* OBDIQSdk */,
-				672AE4566F551D51F683772D48FCF667 /* Pods-OBDIQSdk */,
-				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				20BF23373E825A79AFD23E55642743D3 /* OBDIQSdk.framework */,
+				672AE4566F551D51F683772D48FCF667 /* Pods_OBDIQSdk.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -360,7 +357,6 @@
 				43D28A31AE1C5F2CE6189229E6E6AB76 /* RepairClubSDK.h */,
 				3FF3EEE56D280DD8D6DC1142AFA3942C /* RepairClubSDK-Swift.h */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -387,7 +383,6 @@
 				B5FBB7357CC74B530DECACB1213210A3 /* SwiftyJSON.swift */,
 				021680648795177E141372FF785020B0 /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -417,7 +412,6 @@
 			children = (
 				200A5CA99F25858F89AA2E5C67ACE797 /* to */,
 			);
-			name = path;
 			path = path;
 			sourceTree = "<group>";
 		};
@@ -483,7 +477,6 @@
 			children = (
 				0BD99FEC0394F093E0FC5B7DF82BD934 /* RepairClubSDK.xcframework */,
 			);
-			name = submodule;
 			path = submodule;
 			sourceTree = "<group>";
 		};
@@ -512,7 +505,6 @@
 			children = (
 				DCE217F12F31535411CA88F4BFDCED0E /* RepairClubSDK.framework */,
 			);
-			name = "ios-arm64";
 			path = "ios-arm64";
 			sourceTree = "<group>";
 		};
@@ -531,7 +523,6 @@
 				9822E23F945B558E69FBAB882823D326 /* CarDrConnectionApi.swift */,
 				01730D722A076803D70E3B00479B739E /* OBDIQSdk.h */,
 			);
-			name = OBDIQSdk;
 			path = OBDIQSdk;
 			sourceTree = "<group>";
 		};
@@ -540,7 +531,6 @@
 			children = (
 				FFAC63C66C8A42D390EFCA7615E83B5A /* Headers */,
 			);
-			name = RepairClubSDK.framework;
 			path = RepairClubSDK.framework;
 			sourceTree = "<group>";
 		};
@@ -577,7 +567,6 @@
 			children = (
 				014221D8D32D1C87895F2AECFC965C21 /* RepairClubSDK.framework */,
 			);
-			name = "ios-arm64_x86_64-simulator";
 			path = "ios-arm64_x86_64-simulator";
 			sourceTree = "<group>";
 		};
@@ -587,7 +576,6 @@
 				C0D239882267EDBDFB5E7F595C65486F /* RepairClubSDK.h */,
 				160875B3D5E323475134FAF64E09A320 /* RepairClubSDK-Swift.h */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -651,7 +639,7 @@
 			);
 			name = OBDIQSdk;
 			productName = OBDIQSdk;
-			productReference = 20BF23373E825A79AFD23E55642743D3 /* OBDIQSdk */;
+			productReference = 20BF23373E825A79AFD23E55642743D3 /* OBDIQSdk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		74BD7AEDF27C2D78470F6B261181E952 /* Pods-OBDIQSdk */ = {
@@ -673,7 +661,7 @@
 			);
 			name = "Pods-OBDIQSdk";
 			productName = Pods_OBDIQSdk;
-			productReference = 672AE4566F551D51F683772D48FCF667 /* Pods-OBDIQSdk */;
+			productReference = 672AE4566F551D51F683772D48FCF667 /* Pods_OBDIQSdk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
@@ -691,7 +679,7 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -709,7 +697,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -730,8 +718,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 31B7C30BB03E5FDB0BE8A8C161EAFF11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -968,7 +954,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1225,7 +1211,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1329,7 +1315,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1367,7 +1353,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
