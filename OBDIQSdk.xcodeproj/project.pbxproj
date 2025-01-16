@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2A722DA2D3979B200B98665 /* RepairClubSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A722D92D3979B200B98665 /* RepairClubSDK.xcframework */; };
+		914B894BC81DDB2322DD9CB6 /* Pods_OBDIQSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8D9688136186F843E3A45 /* Pods_OBDIQSdk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8EB0B2FD8C43E94A9FAA965F /* Pods-OBDIQSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBDIQSdk.debug.xcconfig"; path = "Target Support Files/Pods-OBDIQSdk/Pods-OBDIQSdk.debug.xcconfig"; sourceTree = "<group>"; };
+		BE7C022C6C41690CB50351A9 /* Pods-OBDIQSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OBDIQSdk.release.xcconfig"; path = "Target Support Files/Pods-OBDIQSdk/Pods-OBDIQSdk.release.xcconfig"; sourceTree = "<group>"; };
 		E2A722CC2D3979AB00B98665 /* OBDIQSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OBDIQSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2A722D92D3979B200B98665 /* RepairClubSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RepairClubSDK.xcframework; sourceTree = "<group>"; };
+		EAB8D9688136186F843E3A45 /* Pods_OBDIQSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OBDIQSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -41,19 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2A722DA2D3979B200B98665 /* RepairClubSDK.xcframework in Frameworks */,
+				914B894BC81DDB2322DD9CB6 /* Pods_OBDIQSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		434AC7054C917072B47D3838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB8D9688136186F843E3A45 /* Pods_OBDIQSdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD7FBE5F61F0ADF9839CB2D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EB0B2FD8C43E94A9FAA965F /* Pods-OBDIQSdk.debug.xcconfig */,
+				BE7C022C6C41690CB50351A9 /* Pods-OBDIQSdk.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E2A722C22D3979AB00B98665 = {
 			isa = PBXGroup;
 			children = (
-				E2A722D92D3979B200B98665 /* RepairClubSDK.xcframework */,
 				E2A722CE2D3979AB00B98665 /* OBDIQSdk */,
 				E2A722CD2D3979AB00B98665 /* Products */,
+				DD7FBE5F61F0ADF9839CB2D9 /* Pods */,
+				434AC7054C917072B47D3838 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +103,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2A722D42D3979AB00B98665 /* Build configuration list for PBXNativeTarget "OBDIQSdk" */;
 			buildPhases = (
+				1F7267474605FACFF51E376F /* [CP] Check Pods Manifest.lock */,
 				E2A722C72D3979AB00B98665 /* Headers */,
 				E2A722C82D3979AB00B98665 /* Sources */,
 				E2A722C92D3979AB00B98665 /* Frameworks */,
@@ -95,8 +117,6 @@
 				E2A722CE2D3979AB00B98665 /* OBDIQSdk */,
 			);
 			name = OBDIQSdk;
-			packageProductDependencies = (
-			);
 			productName = OBDIQSdk;
 			productReference = E2A722CC2D3979AB00B98665 /* OBDIQSdk.framework */;
 			productType = "com.apple.product-type.framework";
@@ -144,6 +164,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F7267474605FACFF51E376F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OBDIQSdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2A722C82D3979AB00B98665 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -157,6 +202,7 @@
 /* Begin XCBuildConfiguration section */
 		E2A722D52D3979AB00B98665 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB0B2FD8C43E94A9FAA965F /* Pods-OBDIQSdk.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -190,6 +236,7 @@
 		};
 		E2A722D62D3979AB00B98665 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7C022C6C41690CB50351A9 /* Pods-OBDIQSdk.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -9,6 +9,7 @@ import Foundation
 
 
 import RepairClubSDK
+import Alamofire
 import CoreBluetooth
 
  public class  CarDrConnectionApi: NSObject{
