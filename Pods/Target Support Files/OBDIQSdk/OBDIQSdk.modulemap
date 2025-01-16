@@ -1,0 +1,6 @@
+framework module OBDIQSdk {
+  umbrella header "OBDIQSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   # Spec Metadata
   spec.name         = 'OBDIQSdk'
-  spec.version      = '1.0.2'
+  spec.version      = '1.0.1'
   spec.homepage     = 'https://github.com/Arvind6446/OBDIQSdk'
 
   spec.summary      = 'Base interface for OBDIQ devices'
@@ -15,9 +15,6 @@ Pod::Spec.new do |spec|
   # Define platform
   spec.platform     = :ios, '16.1'
 
-  # Specify XCFramework (if needed later)
-  # spec.vendored_frameworks = 'RepairClubSDK.xcframework'
-
   # Header search paths for dependencies
   spec.xcconfig = {
     'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/Headers/Public/Alamofire" "$(PODS_ROOT)/Headers/Public/SwiftyJSON" "$(PODS_ROOT)/Headers/Public/OBD2Interface"'
@@ -27,10 +24,12 @@ Pod::Spec.new do |spec|
   spec.author       = { "Arvind_Cardr" => "arvind@cardr.com" }
 
   # Source files
-  spec.source_files = 'OBDIQSdk/**/*.{h,m,swift}'
+  spec.source_files = 'OBDIQSdk/**/*.{h,m,swift}','path/to/submodule/**/*.{h,m,swift}'
 
   # Dependencies
   spec.dependency  "Alamofire", "~> 5.6.4"
   spec.dependency  "SwiftyJSON", "~> 4.3.0"
-  spec.dependency  "RepairClubSDK"
+
+  # Update RepairClubSDK dependency with the correct Git URL
+  #spec.dependency "RepairClubSDK", :git => 'https://github.com/RRCummins/OBD2Interface.git'
 end

@@ -47,6 +47,16 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>Proprietary</string>
 			<key>Title</key>
+			<string>OBDIQSdk</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>All rights reserved.</string>
+			<key>License</key>
+			<string>Proprietary</string>
+			<key>Title</key>
 			<string>RepairClubSDK</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>

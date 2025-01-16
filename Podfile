@@ -6,7 +6,9 @@ target 'OBDIQSdk' do
   use_frameworks!
 pod 'Alamofire', '~> 5.6.4'
 pod 'SwiftyJSON', '~> 4.0'
-pod 'RepairClubSDK', :git => 'https://github.com/RRCummins/OBD2Interface.git'
+#pod 'RepairClubSDK', :git => 'https://github.com/RRCummins/OBD2Interface.git'
+pod 'OBDIQSdk', :path => 'OBDIQSdk.podspec'
+  pod 'RepairClubSDK', :path => 'path/to/submodule'
 
   # Pods for OBDIQSdk
 

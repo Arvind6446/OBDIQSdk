@@ -1,11 +1,15 @@
 PODS:
   - Alamofire (5.6.4)
+  - OBDIQSdk (1.0.1):
+    - Alamofire (~> 5.6.4)
+    - SwiftyJSON (~> 4.3.0)
   - RepairClubSDK (1.2.07)
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.6.4)
-  - RepairClubSDK (from `https://github.com/RRCummins/OBD2Interface.git`)
+  - OBDIQSdk (from `OBDIQSdk.podspec`)
+  - RepairClubSDK (from `path/to/submodule`)
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
@@ -14,19 +18,17 @@ SPEC REPOS:
     - SwiftyJSON
 
 EXTERNAL SOURCES:
+  OBDIQSdk:
+    :path: OBDIQSdk.podspec
   RepairClubSDK:
-    :git: https://github.com/RRCummins/OBD2Interface.git
-
-CHECKOUT OPTIONS:
-  RepairClubSDK:
-    :commit: 484df9ad47a11973a0d22a97616fb993319b8777
-    :git: https://github.com/RRCummins/OBD2Interface.git
+    :path: path/to/submodule
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  OBDIQSdk: 9005ab379420ee16d18495b129be022fbdaf4fe4
   RepairClubSDK: 8cf5604fcd9f8236147f196bb17edd9ba8f34389
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 4a11a374ef93085ab09acf01d03428e060860699
+PODFILE CHECKSUM: aafde5d4b875193fdc1da5a7da8eef5559ee35c2
 
 COCOAPODS: 1.16.2
