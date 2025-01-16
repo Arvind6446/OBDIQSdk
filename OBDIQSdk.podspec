@@ -32,5 +32,5 @@ Pod::Spec.new do |spec|
   # Dependencies
   spec.dependency  "Alamofire", "~> 5.6.4"
   spec.dependency  "SwiftyJSON", "~> 4.3.0"
-  spec.dependency  "RepairClubSDK", "~> 1.2.07"
+  spec.dependency  "RepairClubSDK"
 end
